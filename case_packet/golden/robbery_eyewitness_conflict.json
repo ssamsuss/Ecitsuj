@@ -1,0 +1,17 @@
+{
+  "title": "State v. Alvarez",
+  "jurisdiction": "US-CA",
+  "charge": "Robbery",
+  "standard_of_proof": "beyond a reasonable doubt",
+  "facts": [
+    "Victim reported wallet stolen at gunpoint outside a subway station",
+    "Two witnesses gave differing descriptions of the suspect's height"
+  ],
+  "jury_instructions": "Weigh conflicting eyewitness testimony carefully; eyewitness identification can be unreliable under stress.",
+  "evidence_items": [
+    {"code": "E1", "kind": "witness", "content": "Victim identified the defendant in a police lineup with high confidence."},
+    {"code": "E2", "kind": "witness", "content": "Bystander described the suspect as significantly shorter than the defendant."},
+    {"code": "E3", "kind": "exhibit", "content": "Subway station security footage, partially obscured by a pillar."},
+    {"code": "E4", "kind": "forensic", "content": "No fingerprints recovered from the scene."}
+  ]
+}

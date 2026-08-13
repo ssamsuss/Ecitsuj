@@ -1,0 +1,17 @@
+{
+  "title": "State v. Doe",
+  "jurisdiction": "US-CA",
+  "charge": "Burglary",
+  "standard_of_proof": "beyond a reasonable doubt",
+  "facts": [
+    "Defendant seen near store at 10:03 PM",
+    "Alarm triggered at 10:05 PM",
+    "Store window found broken at 10:10 PM"
+  ],
+  "jury_instructions": "Presume innocence. Evaluate credibility of witnesses and reliability of forensic evidence.",
+  "evidence_items": [
+    {"code": "E1", "kind": "witness", "content": "Clerk testified she saw a man matching defendant's description outside the store."},
+    {"code": "E2", "kind": "forensic", "content": "Fingerprint on the broken window matches the defendant."},
+    {"code": "E3", "kind": "exhibit", "content": "CCTV timeline showing a figure near the store entrance at 10:03 PM."}
+  ]
+}

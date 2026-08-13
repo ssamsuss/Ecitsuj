@@ -1,0 +1,12 @@
+{
+  "jurisdiction": "us-ca",
+  "charge": "Petty Theft",
+  "statute_reference": "Cal. Penal Code § 484, § 488",
+  "standard_of_proof": "beyond a reasonable doubt",
+  "elements": [
+    {"id": "taking", "description": "The defendant took possession of property owned by someone else."},
+    {"id": "value", "description": "The property was worth $950 or less."},
+    {"id": "intent", "description": "The defendant intended to permanently deprive the owner of the property."},
+    {"id": "movement", "description": "The defendant moved the property, even a small distance, and kept it for any period of time."}
+  ]
+}

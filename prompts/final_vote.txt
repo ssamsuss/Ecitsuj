@@ -1,0 +1,7 @@
+After deliberation, submit your private final vote.
+Return JSON:
+- verdict: guilty | not_guilty | undecided
+- confidence: 0..1
+- rationale: <=120 words
+- what_changed: <=80 words
+- cited_evidence_codes: [ ... ]

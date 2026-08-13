@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RunReport",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["run_id", "status", "initial_split", "final_split", "vote_shifts", "warnings", "metrics"],
+  "properties": {
+    "run_id": { "type": "string", "format": "uuid" },
+    "status": { "type": "string", "enum": ["queued", "running", "done", "failed"] },
+    "initial_split": {
+      "type": "object",
+      "required": ["guilty", "not_guilty", "undecided"],
+      "properties": {
+        "guilty": { "type": "integer", "minimum": 0 },
+        "not_guilty": { "type": "integer", "minimum": 0 },
+        "undecided": { "type": "integer", "minimum": 0 }
+      },
+      "additionalProperties": false
+    },
+    "final_split": {
+      "type": "object",
+      "required": ["guilty", "not_guilty", "undecided"],
+      "properties": {
+        "guilty": { "type": "integer", "minimum": 0 },
+        "not_guilty": { "type": "integer", "minimum": 0 },
+        "undecided": { "type": "integer", "minimum": 0 }
+      },
+      "additionalProperties": false
+    },
+    "vote_shifts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["juror_number", "from", "to", "confidence_from", "confidence_to", "changed"],
+        "properties": {
+          "juror_number": { "type": "integer", "minimum": 1 },
+          "from": { "type": "string", "enum": ["guilty", "not_guilty", "undecided"] },
+          "to": { "type": "string", "enum": ["guilty", "not_guilty", "undecided"] },
+          "confidence_from": { "type": "number", "minimum": 0, "maximum": 1 },
+          "confidence_to": { "type": "number", "minimum": 0, "maximum": 1 },
+          "changed": { "type": "boolean" }
+        }
+      }
+    },
+    "warnings": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "metrics": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "vote_entropy_initial",
+        "vote_entropy_final",
+        "avg_confidence_initial",
+        "avg_confidence_final",
+        "persuasion_index",
+        "citation_coverage",
+        "contradiction_rate",
+        "dominance_index",
+        "estimated_cost_usd"
+      ],
+      "properties": {
+        "vote_entropy_initial": { "type": "number", "minimum": 0 },
+        "vote_entropy_final": { "type": "number", "minimum": 0 },
+        "avg_confidence_initial": { "type": "number", "minimum": 0, "maximum": 1 },
+        "avg_confidence_final": { "type": "number", "minimum": 0, "maximum": 1 },
+        "persuasion_index": { "type": "number", "minimum": 0 },
+        "citation_coverage": { "type": "number", "minimum": 0, "maximum": 1 },
+        "contradiction_rate": { "type": "number", "minimum": 0, "maximum": 1 },
+        "dominance_index": { "type": "number", "minimum": 0, "maximum": 1 },
+        "estimated_cost_usd": { "type": "number", "minimum": 0 }
+      }
+    }
+  }
+}

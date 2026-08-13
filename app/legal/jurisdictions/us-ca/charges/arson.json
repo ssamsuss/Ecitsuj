@@ -1,0 +1,10 @@
+{
+  "jurisdiction": "us-ca",
+  "charge": "Arson",
+  "statute_reference": "Cal. Penal Code § 451",
+  "standard_of_proof": "beyond a reasonable doubt",
+  "elements": [
+    {"id": "burning", "description": "A structure, forest land, or property was set on fire, or the defendant aided and counseled the burning."},
+    {"id": "intent", "description": "The defendant acted willfully and maliciously."}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "jurisdiction": "us-ca",
+  "charge": "Assault",
+  "statute_reference": "Cal. Penal Code § 240",
+  "standard_of_proof": "beyond a reasonable doubt",
+  "elements": [
+    {"id": "act", "description": "The defendant did an act that by its nature would directly and probably result in the application of force to another person."},
+    {"id": "intent", "description": "The defendant acted willfully."},
+    {"id": "capability", "description": "When the defendant acted, they had the present ability to apply force."},
+    {"id": "no_self_defense", "description": "The defendant did not act in reasonable self-defense."}
+  ]
+}

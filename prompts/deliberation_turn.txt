@@ -1,0 +1,11 @@
+Round {round_no}. Prior discussion:
+{round_context}
+
+Your task:
+- Respond to one prior claim (agree/challenge).
+- Add at most 1 new argument.
+- Cite evidence codes for every claim.
+- If evidence conflicts, explain uncertainty explicitly.
+- <=90 words.
+Return JSON:
+{ "message": "...", "cited_evidence_codes": ["E2"], "stance": "support|challenge|clarify" }

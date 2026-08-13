@@ -1,0 +1,16 @@
+{
+  "title": "State v. Nguyen",
+  "jurisdiction": "US-NY",
+  "charge": "Assault",
+  "standard_of_proof": "beyond a reasonable doubt",
+  "facts": [
+    "Defendant and complainant were involved in a physical altercation at a bar",
+    "Defendant claims she acted in self-defense"
+  ],
+  "jury_instructions": "Consider whether the defendant reasonably believed force was necessary to prevent imminent harm.",
+  "evidence_items": [
+    {"code": "E1", "kind": "witness", "content": "Bartender testified the complainant struck first."},
+    {"code": "E2", "kind": "forensic", "content": "Medical report shows bruising on the defendant's forearm consistent with blocking blows."},
+    {"code": "E3", "kind": "witness", "content": "A patron testified the defendant escalated the confrontation verbally beforehand."}
+  ]
+}

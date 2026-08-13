@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "instruction.schema.json",
+  "title": "PanelOrJuryInstructionMetadata",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "jurisdiction", "category", "title"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "jurisdiction": { "type": "string", "pattern": "^[a-z]{2}-[a-z-]+$" },
+    "category": { "type": "string", "enum": ["standard", "credibility", "elements_template", "procedural", "defenses"] },
+    "title": { "type": "string", "minLength": 1 },
+    "applies_to": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+mock-jury-agent/
+├─ app/
+│  ├─ main.py
+│  ├─ config.py
+│  ├─ db.py
+│  ├─ models.py
+│  ├─ schemas.py
+│  ├─ prompts.py
+│  ├─ llm.py
+│  ├─ services/
+│  │  ├─ cases.py
+│  │  ├─ personas.py
+│  │  ├─ simulation.py
+│  │  ├─ moderator.py
+│  │  ├─ metrics.py
+│  │  └─ report.py
+│  └─ api/
+│     ├─ cases.py
+│     └─ runs.py
+├─ migrations/                 # optional (Alembic)
+├─ tests/
+│  ├─ test_schemas.py
+│  └─ test_simulation_smoke.py
+├─ requirements.txt
+└─ README.md

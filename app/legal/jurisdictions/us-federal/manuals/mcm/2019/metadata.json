@@ -1,0 +1,9 @@
+{
+  "jurisdiction": "us-federal",
+  "source_name": "Manual for Courts-Martial, United States",
+  "edition_or_year": "2019",
+  "documents": [
+    {"file": "pt-ii-rcm.md", "title": "Part II - Rules for Courts-Martial"},
+    {"file": "pt-iv-punitive-articles.md", "title": "Part IV - Punitive Articles"}
+  ]
+}

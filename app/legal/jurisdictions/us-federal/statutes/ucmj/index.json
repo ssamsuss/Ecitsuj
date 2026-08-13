@@ -1,0 +1,9 @@
+{
+  "jurisdiction": "us-federal",
+  "source_name": "Uniform Code of Military Justice",
+  "edition_or_year": "10 U.S.C. Chapter 47",
+  "documents": [
+    {"file": "articles/article-92.json", "title": "Article 92 - Failure to Obey Order or Regulation"},
+    {"file": "articles/article-128.json", "title": "Article 128 - Assault"}
+  ]
+}

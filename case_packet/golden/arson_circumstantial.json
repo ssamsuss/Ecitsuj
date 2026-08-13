@@ -1,0 +1,16 @@
+{
+  "title": "State v. Boone",
+  "jurisdiction": "US-CA",
+  "charge": "Arson",
+  "standard_of_proof": "beyond a reasonable doubt",
+  "facts": [
+    "A warehouse owned by the defendant's competitor burned down overnight",
+    "No direct witness placed the defendant at the scene"
+  ],
+  "jury_instructions": "Circumstantial evidence may support a conviction, but each inference must be reasonable and consistent with guilt beyond a reasonable doubt.",
+  "evidence_items": [
+    {"code": "E1", "kind": "forensic", "content": "Fire investigator's report identifying an accelerant consistent with gasoline."},
+    {"code": "E2", "kind": "exhibit", "content": "Receipt showing the defendant purchased gasoline containers the day before the fire."},
+    {"code": "E3", "kind": "exhibit", "content": "Cell tower records placing the defendant's phone near the warehouse that night."}
+  ]
+}

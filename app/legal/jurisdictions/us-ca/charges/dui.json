@@ -1,0 +1,10 @@
+{
+  "jurisdiction": "us-ca",
+  "charge": "Driving Under the Influence",
+  "statute_reference": "Cal. Vehicle Code § 23152",
+  "standard_of_proof": "beyond a reasonable doubt",
+  "elements": [
+    {"id": "driving", "description": "The defendant drove a vehicle."},
+    {"id": "impairment", "description": "The defendant was under the influence of an alcoholic beverage, drug, or both, at the time of driving, such that mental or physical abilities were impaired."}
+  ]
+}

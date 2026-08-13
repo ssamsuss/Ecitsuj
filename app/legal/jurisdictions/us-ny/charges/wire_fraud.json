@@ -1,0 +1,11 @@
+{
+  "jurisdiction": "us-ny",
+  "charge": "Wire Fraud",
+  "statute_reference": "18 U.S.C. § 1343",
+  "standard_of_proof": "beyond a reasonable doubt",
+  "elements": [
+    {"id": "scheme", "description": "The defendant knowingly devised or participated in a scheme to defraud, or to obtain money or property by materially false pretenses."},
+    {"id": "intent", "description": "The defendant acted with intent to defraud."},
+    {"id": "wire_use", "description": "The defendant used, or caused the use of, interstate wire communications to further the scheme."}
+  ]
+}

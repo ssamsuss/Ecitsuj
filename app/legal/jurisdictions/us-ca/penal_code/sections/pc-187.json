@@ -1,0 +1,12 @@
+{
+  "jurisdiction": "us-ca",
+  "code": "Penal Code",
+  "section": "PC 187",
+  "title": "Murder",
+  "text_summary": "Defines murder as the unlawful killing of a human being, or a fetus, with malice aforethought.",
+  "elements": [
+    {"id": "killing", "description": "The defendant committed an act that caused the death of another person (or a fetus)."},
+    {"id": "malice", "description": "The defendant acted with malice aforethought, either express (intent to kill) or implied (conscious disregard for human life)."},
+    {"id": "unlawful", "description": "The killing was unlawful, i.e., not justified, excused, or reduced to a lesser offense."}
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "title": "State v. Marsh",
+  "jurisdiction": "US-NY",
+  "charge": "Domestic Battery",
+  "standard_of_proof": "beyond a reasonable doubt",
+  "facts": [
+    "Neighbors reported a loud altercation at the defendant's residence",
+    "The complainant later recanted parts of her initial statement to police"
+  ],
+  "jury_instructions": "Recantation does not automatically negate a prior consistent statement; weigh all statements and their circumstances.",
+  "evidence_items": [
+    {"code": "E1", "kind": "witness", "content": "Responding officer testified the complainant had visible injuries and stated the defendant struck her."},
+    {"code": "E2", "kind": "witness", "content": "At trial, the complainant testified she fell and the defendant did not hit her."},
+    {"code": "E3", "kind": "exhibit", "content": "911 call recording in which the complainant is heard naming the defendant as the attacker."}
+  ]
+}

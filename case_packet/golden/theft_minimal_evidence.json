@@ -1,0 +1,13 @@
+{
+  "title": "State v. Park",
+  "jurisdiction": "US-CA",
+  "charge": "Petty Theft",
+  "standard_of_proof": "beyond a reasonable doubt",
+  "facts": [
+    "A store manager reported a missing item after the defendant's visit"
+  ],
+  "jury_instructions": "The prosecution bears the full burden of proof; a single piece of evidence must still meet the reasonable doubt standard.",
+  "evidence_items": [
+    {"code": "E1", "kind": "exhibit", "content": "Store inventory log showing one unit of merchandise unaccounted for after the defendant's visit."}
+  ]
+}

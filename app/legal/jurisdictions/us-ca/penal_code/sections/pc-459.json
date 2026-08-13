@@ -1,0 +1,11 @@
+{
+  "jurisdiction": "us-ca",
+  "code": "Penal Code",
+  "section": "PC 459",
+  "title": "Burglary",
+  "text_summary": "Defines burglary as entering a building, room, or locked vehicle with the intent to commit a felony or theft.",
+  "elements": [
+    {"id": "entry", "description": "The defendant entered a building, room, or locked vehicle."},
+    {"id": "intent", "description": "At the time of entry, the defendant intended to commit a felony or theft."}
+  ]
+}

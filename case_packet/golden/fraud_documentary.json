@@ -1,0 +1,15 @@
+{
+  "title": "State v. Whitfield Holdings",
+  "jurisdiction": "US-NY",
+  "charge": "Wire Fraud",
+  "standard_of_proof": "beyond a reasonable doubt",
+  "facts": [
+    "Defendant allegedly directed transfers of investor funds to a personal account over six months"
+  ],
+  "jury_instructions": "Focus on documentary and financial records rather than testimonial impressions; assess intent from the pattern of transactions.",
+  "evidence_items": [
+    {"code": "E1", "kind": "exhibit", "content": "Bank statements showing transfers from the investment fund to a personal account."},
+    {"code": "E2", "kind": "exhibit", "content": "Email correspondence in which the defendant instructs an assistant to reclassify the transfers."},
+    {"code": "E3", "kind": "forensic", "content": "Forensic accountant's report tracing the fund flows and timeline of transfers."}
+  ]
+}

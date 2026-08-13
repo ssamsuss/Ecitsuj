@@ -1,0 +1,8 @@
+Read the case summary, instructions, and evidence.
+Return JSON with:
+- verdict: guilty | not_guilty | undecided
+- confidence: 0..1
+- rationale: <=120 words
+- cited_evidence_codes: [ ... ]
+Case:
+{case_packet}

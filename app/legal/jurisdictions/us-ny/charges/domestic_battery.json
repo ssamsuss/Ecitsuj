@@ -1,0 +1,10 @@
+{
+  "jurisdiction": "us-ny",
+  "charge": "Domestic Battery",
+  "statute_reference": "N.Y. Penal Law § 120.00",
+  "standard_of_proof": "beyond a reasonable doubt",
+  "elements": [
+    {"id": "physical_injury", "description": "The defendant caused physical injury to a member of the same family or household."},
+    {"id": "intent", "description": "The defendant acted with intent to cause physical injury, or acted recklessly and caused injury."}
+  ]
+}

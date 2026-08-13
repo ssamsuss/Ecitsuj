@@ -1,0 +1,9 @@
+{
+  "jurisdiction": "us-ca",
+  "source_name": "California Penal Code",
+  "edition_or_year": "current",
+  "documents": [
+    {"file": "sections/pc-187.json", "title": "PC 187 - Murder"},
+    {"file": "sections/pc-459.json", "title": "PC 459 - Burglary"}
+  ]
+}

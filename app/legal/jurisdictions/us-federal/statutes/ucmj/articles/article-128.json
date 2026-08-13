@@ -1,0 +1,12 @@
+{
+  "jurisdiction": "us-federal",
+  "code": "UCMJ",
+  "section": "Article 128",
+  "title": "Assault",
+  "text_summary": "Prohibits unlawfully offering or attempting to do bodily harm to another person, including aggravated forms committed with a dangerous weapon or resulting in grievous bodily harm.",
+  "elements": [
+    {"id": "act", "description": "The accused attempted or offered to do bodily harm to another person."},
+    {"id": "unlawful_force", "description": "The attempt or offer involved unlawful force or violence."},
+    {"id": "no_justification", "description": "The act was done without legal justification or excuse, such as self-defense."}
+  ]
+}

@@ -1,0 +1,31 @@
+legal/
+├─ README.md
+├─ jurisdictions/
+│  ├─ us-ca/
+│  │  ├─ charges/
+│  │  │  ├─ burglary.json
+│  │  │  └─ robbery.json
+│  │  ├─ jury_instructions/
+│  │  │  ├─ reasonable_doubt.md
+│  │  │  ├─ witness_credibility.md
+│  │  │  └─ burglary_elements.md
+│  │  ├─ standards/
+│  │  │  ├─ burden_of_proof.md
+│  │  │  └─ presumption_of_innocence.md
+│  │  └─ foundational_guidance/
+│  │     ├─ admissibility_basics.md
+│  │     └─ deliberation_rules.md
+│  └─ us-ny/
+│     └─ ...
+├─ schemas/
+│  ├─ charge_elements.schema.json
+│  ├─ jury_instruction.schema.json
+│  └─ legal_standard.schema.json
+└─ case_law/
+   ├─ us-ca/
+   │  ├─ burglary/
+   │  │  ├─ people_v_x_2019.md
+   │  │  └─ people_v_y_2021.md
+   │  └─ index.json
+   └─ us-ny/
+      └─ ...

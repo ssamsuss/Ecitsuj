@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "jury_instruction.schema.json",
+  "title": "JuryInstructionMetadata",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "jurisdiction", "category", "title"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "jurisdiction": { "type": "string", "pattern": "^[a-z]{2}-[a-z-]+$" },
+    "category": { "type": "string", "enum": ["standard", "credibility", "charge_specific", "procedural"] },
+    "title": { "type": "string", "minLength": 1 },
+    "applies_to_charges": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    }
+  }
+}

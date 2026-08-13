@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "legal_standard.schema.json",
+  "title": "LegalStandardMetadata",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "jurisdiction", "standard_type", "title"],
+  "properties": {
+    "id": { "type": "string", "minLength": 1 },
+    "jurisdiction": { "type": "string", "pattern": "^[a-z]{2}-[a-z-]+$" },
+    "standard_type": {
+      "type": "string",
+      "enum": ["burden_of_proof", "presumption_of_innocence", "credibility_factors"]
+    },
+    "title": { "type": "string", "minLength": 1 }
+  }
+}

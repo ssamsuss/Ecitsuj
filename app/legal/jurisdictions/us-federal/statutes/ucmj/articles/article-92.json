@@ -1,0 +1,12 @@
+{
+  "jurisdiction": "us-federal",
+  "code": "UCMJ",
+  "section": "Article 92",
+  "title": "Failure to Obey Order or Regulation",
+  "text_summary": "Prohibits violating or failing to obey a lawful general order or regulation, failing to obey any other lawful order, or being derelict in the performance of duties.",
+  "elements": [
+    {"id": "duty", "description": "The accused had a duty defined by a lawful order, regulation, or assigned responsibility."},
+    {"id": "violation", "description": "The accused violated or failed to obey the order or regulation, or was derelict in performing the duty."},
+    {"id": "knowledge_or_negligence", "description": "The failure was willful, or through neglect or culpable inefficiency."}
+  ]
+}

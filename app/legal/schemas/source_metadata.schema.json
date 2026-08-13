@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "source_metadata.schema.json",
+  "title": "SourceMetadata",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["jurisdiction", "source_name", "edition_or_year", "documents"],
+  "properties": {
+    "jurisdiction": { "type": "string", "pattern": "^[a-z]{2}-[a-z-]+$" },
+    "source_name": { "type": "string", "minLength": 1 },
+    "edition_or_year": { "type": "string", "minLength": 1 },
+    "documents": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["file", "title"],
+        "properties": {
+          "file": { "type": "string", "minLength": 1 },
+          "title": { "type": "string", "minLength": 1 }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "title": "State v. Reyes",
+  "jurisdiction": "US-CA",
+  "charge": "Driving Under the Influence",
+  "standard_of_proof": "beyond a reasonable doubt",
+  "facts": [
+    "Defendant was stopped after failing to maintain a single lane",
+    "Breathalyzer administered at the scene"
+  ],
+  "jury_instructions": "Evaluate the reliability of the breathalyzer calibration records alongside the officer's observations.",
+  "evidence_items": [
+    {"code": "E1", "kind": "forensic", "content": "Breathalyzer reading of 0.09% blood alcohol content."},
+    {"code": "E2", "kind": "witness", "content": "Arresting officer testified the defendant had slurred speech and bloodshot eyes."},
+    {"code": "E3", "kind": "exhibit", "content": "Dashcam video of the traffic stop and field sobriety test."},
+    {"code": "E4", "kind": "forensic", "content": "Breathalyzer calibration log showing the device was serviced two days prior."}
+  ]
+}

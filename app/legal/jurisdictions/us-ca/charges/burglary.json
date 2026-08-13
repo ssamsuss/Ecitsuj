@@ -1,0 +1,10 @@
+{
+  "jurisdiction": "us-ca",
+  "charge": "Burglary",
+  "statute_reference": "Cal. Penal Code § 459",
+  "standard_of_proof": "beyond a reasonable doubt",
+  "elements": [
+    {"id": "entry", "description": "The defendant entered a building, room, or locked vehicle."},
+    {"id": "intent", "description": "At the time of entry, the defendant intended to commit a felony or theft."}
+  ]
+}

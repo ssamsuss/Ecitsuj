@@ -1,0 +1,12 @@
+{
+  "jurisdiction": "us-ca",
+  "charge": "Robbery",
+  "statute_reference": "Cal. Penal Code § 211",
+  "standard_of_proof": "beyond a reasonable doubt",
+  "elements": [
+    {"id": "taking", "description": "The defendant took property that was not their own."},
+    {"id": "possession", "description": "The property was taken from another person's possession and immediate presence."},
+    {"id": "force_or_fear", "description": "The taking was accomplished by force or fear."},
+    {"id": "intent", "description": "The defendant intended to permanently deprive the owner of the property."}
+  ]
+}

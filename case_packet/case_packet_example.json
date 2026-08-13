@@ -1,0 +1,16 @@
+{
+  "title": "State v. Doe",
+  "jurisdiction": "US-CA",
+  "charge": "Burglary",
+  "standard_of_proof": "beyond a reasonable doubt",
+  "facts": [
+    "Defendant seen near store at 10:03 PM",
+    "Alarm triggered at 10:05 PM"
+  ],
+  "jury_instructions": "Presume innocence... evaluate credibility...",
+  "evidence_items": [
+    {"code": "E1", "kind": "witness", "content": "Clerk testimony..."},
+    {"code": "E2", "kind": "forensic", "content": "Fingerprint report..."},
+    {"code": "E3", "kind": "exhibit", "content": "CCTV timeline..."}
+  ]
+}

@@ -1,0 +1,40 @@
+legal/
+├─ README.md
+├─ jurisdictions/
+│  ├─ us-federal/
+│  │  ├─ statutes/
+│  │  │  ├─ ucmj/
+│  │  │  │  ├─ articles/
+│  │  │  │  │  ├─ article-92.json
+│  │  │  │  │  └─ article-128.json
+│  │  │  │  └─ index.json
+│  │  ├─ manuals/
+│  │  │  ├─ mcm/
+│  │  │  │  ├─ 2019/
+│  │  │  │  │  ├─ pt-ii-rcm.md
+│  │  │  │  │  ├─ pt-iv-punitive-articles.md
+│  │  │  │  │  └─ metadata.json
+│  │  ├─ jury_or_panel_instructions/
+│  │  │  ├─ burden_of_proof.md
+│  │  │  ├─ elements_template.md
+│  │  │  └─ credibility.md
+│  │  └─ foundational_guidance/
+│  │     ├─ admissibility_basics.md
+│  │     └─ deliberation_rules.md
+│  ├─ us-ca/
+│  │  ├─ penal_code/
+│  │  │  ├─ sections/
+│  │  │  │  ├─ pc-187.json
+│  │  │  │  └─ pc-459.json
+│  │  │  └─ index.json
+│  │  ├─ jury_instructions/
+│  │  └─ foundational_guidance/
+│  └─ us-ny/
+│     └─ ...
+├─ shared/
+│  ├─ citation_rules.md
+│  └─ confidence_scale.md
+└─ schemas/
+   ├─ statute_section.schema.json
+   ├─ instruction.schema.json
+   └─ source_metadata.schema.json
